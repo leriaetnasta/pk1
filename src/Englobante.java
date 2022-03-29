@@ -1,4 +1,5 @@
 public class Englobante {
+    private Interne interne = new Interne();
     private int i= 5;
     public void afficher(){
         System.out.println("i : "+ i);
